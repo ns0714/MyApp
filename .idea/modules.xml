@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShareYourTable.iml" filepath="$PROJECT_DIR$/ShareYourTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackBlur/StackBlur.iml" filepath="$PROJECT_DIR$/StackBlur/StackBlur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularImageView/circularImageView.iml" filepath="$PROJECT_DIR$/circularImageView/circularImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" filepath="$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datetimepicker-sample/datetimepicker-sample.iml" filepath="$PROJECT_DIR$/datetimepicker-sample/datetimepicker-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyAndroidAnimationsLibrary/easyAndroidAnimationsLibrary.iml" filepath="$PROJECT_DIR$/easyAndroidAnimationsLibrary/easyAndroidAnimationsLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otto-1.3.6/otto-1.3.6.iml" filepath="$PROJECT_DIR$/otto-1.3.6/otto-1.3.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shareYourTable/shareYourTable.iml" filepath="$PROJECT_DIR$/shareYourTable/shareYourTable.iml" />
+    </modules>
+  </component>
+</project>
+

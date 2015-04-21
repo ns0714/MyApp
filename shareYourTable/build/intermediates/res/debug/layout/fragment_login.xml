@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen_2"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_login"
+        android:layout_marginRight="@dimen/margin_login"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="@dimen/padding_textbox"
+        android:paddingTop="@dimen/padding_20"
+        android:paddingBottom="@dimen/padding_20"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" >
+
+        <requestFocus />
+    </EditText>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/etEmail"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:background="@color/black"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_login"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/divider"
+        android:paddingBottom="@dimen/padding_20"
+        android:paddingLeft="@dimen/padding_textbox"
+        android:paddingTop="@dimen/padding_20"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:hint="@string/password"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:inputType="textPassword"
+         />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/etPassword"
+        android:layout_marginBottom="123dp"
+        android:background="@color/btn_color_airbnb"
+        android:text="@string/login"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
+<!-- From: file:/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/src/main/res/layout/fragment_login.xml -->

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/margin_20"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/rlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/yelp_red" >
+
+        <EditText
+            android:id="@+id/etNear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etFind"
+            android:layout_alignRight="@+id/etFind"
+            android:layout_below="@+id/etFind"
+            android:background="@drawable/border_textview"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/padding_textbox"
+            android:paddingTop="@dimen/padding_textbox"
+            android:hint="@string/near_hint">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toLeftOf="@+id/btnYelp"
+            android:layout_toRightOf="@+id/tvFind"
+            android:background="@drawable/border_textview"
+            android:ems="10"
+            android:paddingLeft="@dimen/padding_textbox"
+            android:paddingTop="@dimen/padding_textbox"
+            android:gravity="left"
+            android:maxLines="1"
+            android:hint="@string/find_hint"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etFind"
+            android:layout_alignBottom="@+id/etFind"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/find"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/tvNear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etNear"
+            android:layout_alignBottom="@+id/etNear"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"
+            android:text="@string/near"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnYelp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tvFind"
+            android:background="@drawable/ic_search" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frYelpListings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rlLayout" >
+
+    </FrameLayout>
+
+</RelativeLayout>

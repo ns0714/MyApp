@@ -1,0 +1,140 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.codepath.shareyourtable.fragments.CreateEventFragment.ViewEventFragment">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/ivProfilePic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/shape_view_border" />
+
+    <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivProfilePic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/full_name"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvFullName"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivCalenderIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/divider"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/calender_add" />
+
+    <TextView
+        android:id="@+id/tvEventDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivCalenderIcon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivCalenderIcon"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_toRightOf="@+id/ivCalenderIcon"
+        android:text="@string/select_date"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/dividerBelowDate"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvEventDay"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/black" />
+
+    <ImageView
+        android:id="@+id/ivLocationIcon"
+        android:layout_width="28dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dividerBelowDate"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/ic_map_pin" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivLocationIcon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivLocationIcon"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_toRightOf="@+id/ivLocationIcon"
+        android:text="@string/where"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLocation"
+        android:layout_alignStart="@+id/tvLocation"
+        android:layout_below="@+id/tvLocation"
+        android:textSize="16sp"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <View
+        android:id="@+id/dividerBelowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvLocation"
+        android:layout_marginTop="@dimen/margin_40"
+        android:background="@color/black" />
+
+    <ListView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAcceptedUsers"
+        android:layout_below="@+id/dividerBelowLocation"
+        android:layout_alignLeft="@+id/ivCalenderIcon"
+         />
+
+    <ImageButton
+        android:id="@+id/ibAccept"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/ic_heart"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_20"/>
+
+</RelativeLayout><!-- From: file:/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/src/main/res/layout/fragment_view_event.xml -->

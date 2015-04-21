@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/android-async-http-1.4.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-a8cd50e10cb82fb8d6197ed2fdea7c68505c5def.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/ShareYourTable/easyAndroidAnimationsLibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="938d1dc00c3591388c8f817bb78e5e849923b525">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-533f2a8e660578ccff47f2ffd7e6442af5ffb504.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-db421450f81b4729714b5449cbdca5f8b1332342.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-41f2740fc7c7aa93d9018d4a8829b8e78d8780c9.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-2df846b8e2a4f342e003a8e5b0b63c9834f44d89.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e8470bb2614d96ba65ae8ed59128c74cc1dd4614.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-df2d177e61312974dfc67a7d7ae1bbe48a7aac85.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-81a4bd800f74156225b65f476fd50b3d94d76578.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-3ebbba6298bca04860ff5c75c5bffa45b45bfefa.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-1af981eebd1d25227d01716c0680e7cccc158ec2.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/ShareYourTable/circularImageView/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="251f81bb8f576f60861c41be3591cb0657ab445c">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-30937d86b3346657e9fc02011bb0b34410e0f274.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-e0f003fe9e8828247814c336150cb23c846e96e6.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/otto-1.3.6/otto-1.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee373b6d0d6ea36a0a9b0cbabaf16be7e7fc3e30">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/otto-1.3.6-9d83d4e21938afa87a4c5c17b3da4985aa7807c6.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-4e8028dfca9aa64ce97f47b69c5d111d6de12cf6.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-45134ecf2169f65a2737444c55809e5410622723.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-c58f42bbb5e4046fefc0e59872db47022d73aee9.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-288bdc7601716b4fe9ae28756170a7786deaee7f.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-d719990c58d823715f35cf54024965eb132a74b8.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-3f671813dc7315aa3cc327a85e228b34fe4d9d10.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-1ca381bc94828163adf485b225918c58a5f70747.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/ShareYourTable/StackBlur/unspecified/libs/renderscript-v8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="635500d71777395a0b88dab7d6d131a03ff78684">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/renderscript-v8-7073bb3ceadb214fe3cd2c128f573918c6769439.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-8837a6504f109711de6aa62cd74244cfb841e715.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-9b1b11505f07e6c53882c5461aac5f44ee414b1d.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-4413159a37cd56291bbfffa83cd4854c6f55fb6c.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-a1dfb8096e6bd129c75fd3aefc8478cb90e84c0e.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/Parse-1.7.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="403b8fa0a90f1ff714ad1f40382e7a448ed4f25b">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/Parse-1.7.0-6f99f520655f0825a75d005b81c678dcef8bf338.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/ShareYourTable/StackBlur/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="731f6c7efcc597b514ecd154cbf2b822bf466750">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-0c3ee98695fb231b59776b7fca9ddbdb0592b91e.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-ce003d7ebeb0ef774c542abbe47a6848fbf166d8.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-23c304416d930ba2072f8ed912568ea14a2b2726.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-03d124d9f966edaab302f1353525efbd8b9280a2.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/picasso-2.3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b646ddbdac8a33fc45b64564011da81d23e4635">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/picasso-2.3.4-8754bdf808f8c358a3fa2f6bb89ae831487b96de.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/codepath-oauth-0.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b90f1c3541987f690e2fb854775914cc23266250">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/codepath-oauth-0.3.0-8da1f1c8a08a8636823d2f0c8dd0402c53179784.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-62ee507e385ca26688d4c673f4cb251aa6f40be6.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/json_simple-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/json_simple-1.1-52c2f943a45751a52f0f83cf646849c7d6d0fd6f.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-852f37b95dbc8abf7897116243bf4a25af74ee7a.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/library-2.4.0-26ebd41567f886920904bb48ef3f19b97199f58d.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/jcommander-1.35.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47592e181b0bdbbeb63029e08c5e74f6803c4edd">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/jcommander-1.35-75d312b9a4cfb3ac37b62dccf5368221d5aaacd5.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.android.support/palette-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="926692214530f39eaed89159237d26cdc0ae6e48">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-d6185b3b5a3005f46c8ed3e1b3b57b28a26f81c3.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/ShareYourTable/datetimepicker-library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4039a72a79685ba01221a7781235838f8fe1cc6c">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-bd470e5b5f0fd1dcc7c864d551c4e853de669ef7.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/libs/scribe-codepath.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e0748acc9e7be0695de0d38016d260df52d9167">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/scribe-codepath-60597cdac3d6bab24e394d002906150035c89012.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-30f38961a6573c5fb635592f901f3718a7bc3030.jar" />
+    </item>
+    <item
+        jar="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/build/intermediates/pre-dexed/debug/classes-b2654e9ff76bbae4c09c64fe788793f41459a2f5.jar" />
+    </item>
+
+</items>

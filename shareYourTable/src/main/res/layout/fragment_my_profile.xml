@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.melnykov.fab.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scProfile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:id="@+id/dividerBelowImg"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/ivProfileImage"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tvAgeGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivProfileImage"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/age_group"
+            android:textColor="@color/btn_color_airbnb"
+            android:textSize="@dimen/textSize" />
+
+        <RadioGroup
+            android:id="@+id/rbAgeGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/tvAgeGroup"
+            android:layout_marginTop="@dimen/margin"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbAge18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_group_18" />
+
+            <RadioButton
+                android:id="@+id/rbAge30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_group_30" />
+
+            <RadioButton
+                android:id="@+id/rbAge50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_group_50" />
+
+        </RadioGroup>
+
+        <View
+            android:id="@+id/dividerBelowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/rbAgeGroup"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/rbAgeGroup"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/gender"
+            android:textColor="@color/btn_color_airbnb"
+            android:textSize="@dimen/textSize" />
+
+        <RadioGroup
+            android:id="@+id/rbGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/tvGender"
+            android:layout_marginTop="@dimen/margin"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:buttonTint="@color/btn_color_airbnb"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/btn_color_airbnb"
+                android:text="@string/female" />
+        </RadioGroup>
+
+        <View
+            android:id="@+id/dividerBelowGender"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/rbGender"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tvLookingFor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/rbGender"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/looking_for"
+            android:textColor="@color/btn_color_airbnb"
+            android:textSize="@dimen/textSize" />
+
+        <CheckBox
+            android:id="@+id/cbDating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/tvLookingFor"
+            android:layout_marginTop="@dimen/margin"
+            android:buttonTint="@color/btn_color_airbnb"
+            android:text="@string/dating" />
+
+        <CheckBox
+            android:id="@+id/cbHangout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/cbDating"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_toRightOf="@+id/cbDating"
+            android:buttonTint="@color/btn_color_airbnb"
+            android:text="@string/hangout" />
+
+        <View
+            android:id="@+id/dividerBelowLooking"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/cbDating"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tvInterests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@+id/cbDating"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/interests"
+            android:textColor="@color/btn_color_airbnb"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/etInterests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAgeGroup"
+            android:layout_below="@id/tvInterests"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/border_textview"
+            android:ems="100"
+            android:hint="@string/interests_hint"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/textSize_16" />
+
+        <TextView
+            android:id="@+id/tvAboutMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvAgeGroup"
+            android:layout_below="@id/etInterests"
+            android:layout_marginTop="@dimen/margin_20"
+            android:text="@string/about_me"
+            android:textColor="@color/btn_color_airbnb"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/etAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvAgeGroup"
+            android:layout_below="@+id/tvAboutMe"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/border_textview"
+            android:ems="100"
+            android:hint="@string/aboutme_hint"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/textSize_16" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            fab:fab_colorNormal="@color/btn_color_airbnb"
+            fab:fab_colorPressed="@color/white"
+            fab:fab_colorRipple="@color/transparent_black"
+            android:layout_above="@+id/tvAboutMe"
+             />
+    </RelativeLayout>
+</com.melnykov.fab.ObservableScrollView>

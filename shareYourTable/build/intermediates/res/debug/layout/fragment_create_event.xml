@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvLocationHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/title_location"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/btn_color_airbnb"/>
+
+    <TextView
+        android:id="@+id/tvWhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLocationHeading"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/where"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/tvChoosePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvWhere"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_50"
+        android:layout_toRightOf="@+id/tvWhere"
+        android:text="@string/choose_restaurant"
+        android:textSize="@dimen/textSize" />
+
+    <View
+        android:id="@+id/dividerBelowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvChoosePlace"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_marginRight="@dimen/margin_20"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tvDateHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dividerBelowLocation"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/title_date"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/btn_color_airbnb"/>
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_below="@+id/tvDateHeading"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/day"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/tvChooseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvDay"
+        android:layout_alignLeft="@+id/tvChoosePlace"
+        android:text="@string/select_date"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_below="@+id/tvDay"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/time"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/tvChooseTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvTime"
+        android:layout_alignLeft="@+id/tvChoosePlace"
+        android:layout_toRightOf="@id/tvTime"
+        android:text="@string/select_time"
+        android:textSize="@dimen/textSize" />
+
+    <View
+        android:id="@+id/dividerBelowDate"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvTime"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tvDetailsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dividerBelowDate"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/title_details"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/btn_color_airbnb"/>
+
+    <TextView
+        android:id="@+id/tvTableFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTime"
+        android:layout_below="@+id/tvDetailsHeading"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/table_for"
+        android:textSize="@dimen/textSize" />
+
+    <Spinner
+        android:id="@+id/spTableFor"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/tvChoosePlace"
+        android:layout_alignTop="@+id/tvTableFor"
+        android:layout_toRightOf="@+id/tvTableFor"
+        />
+
+    <TextView
+        android:id="@+id/tvLookingFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_below="@+id/tvTableFor"
+        android:paddingTop="15dp"
+        android:text="@string/looking_for"
+        android:textSize="@dimen/textSize" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvLookingFor"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_toRightOf="@+id/tvLookingFor"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbDating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvChoosePlace"
+            android:layout_alignTop="@+id/tvLookingFor"
+            android:layout_below="@+id/spTableFor"
+            android:checked="false"
+            android:text="@string/dating" />
+
+        <RadioButton
+            android:id="@+id/rbHangout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvLookingFor"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_toRightOf="@+id/rbDating"
+            android:text="@string/hangout" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/dividerBelowDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tvLookingFor"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_alignLeft="@+id/tvWhere"
+        android:layout_marginRight="@dimen/margin_20"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dividerBelowDetails"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/title_message"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/btn_color_airbnb"/>
+
+
+    <EditText
+        android:id="@+id/etPersonalMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessage"
+        android:ems="10"
+        android:maxLines="3"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_alignLeft="@+id/tvMessage"
+        android:textSize="@dimen/textSize"
+        android:layout_alignRight="@+id/tvChoosePlace"
+        android:layout_alignEnd="@+id/tvChoosePlace" />
+
+    <Button
+        android:id="@+id/btnShoutOut"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessage"
+        android:layout_marginTop="@dimen/margin_50"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:text="@string/done" />
+
+</RelativeLayout><!-- From: file:/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/src/main/res/layout/fragment_create_event.xml -->

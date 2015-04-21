@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parseApplicationId">Cr15seRa55FKUMPy2uZWaGVe0A3RtuJAtIUJf0bU</string>
+    <string name="parseClientId">sDNx46nXNMKj3jSm6W3dsrgY9TQktzkCArDSv7jT</string>
+    <string name="googleKey">AIzaSyA-9ACKUdzzpGqTXKKCDuSKh4OP3JouYYM</string>
+    <string name="paypalClientId">AeBmphDcizwuWgyvNyhjp_dEIV0W3eNndBu2P-QJuA-6YO6otuFgiPEmSoAw</string>
+    <string name="facebookAppId">1388735271445039</string>
+</resources>
+

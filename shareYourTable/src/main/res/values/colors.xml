@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+    <color name="btn_color_airbnb">#ff5a5f</color>
+    <color name="toolbar_airbnb">#80ff5a5f</color>
+    <color name="btn_color_blue">#067ab4</color>
+    <color name="yelp_red">#af0606</color>
+    <color name="transparent_white">#FFFFFFFF</color>
+    <color name="transparent">#26000000</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="btn_color">#ff5a5f</color>
+
+</resources>

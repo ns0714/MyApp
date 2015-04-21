@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_screen_2"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/facebook_blue"
+        android:text="@string/facebook" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnFacebook"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/signup_email"
+        android:textColor="@color/btn_color_airbnb"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSignup"
+        android:layout_alignRight="@+id/btnFacebook"
+        android:layout_below="@+id/tvSignup"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:maxLines="1">
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:id="@+id/divBelowEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/etEmail"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/divBelowEmail"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/divBelowPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/etPassword"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_alignRight="@+id/etPassword"
+        android:layout_below="@+id/divBelowPassword"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textCapWords"
+        android:maxLength="20"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/divBelowFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/etFirstName"
+        android:background="@color/black" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etFirstName"
+        android:layout_alignRight="@+id/etFirstName"
+        android:layout_below="@+id/divBelowFirstName"
+        android:background="@drawable/border_textview"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textCapWords"
+        android:maxLength="20"
+        android:maxLines="1" />
+
+    <View
+        android:id="@+id/divBelowLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_below="@+id/etLastName"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etLastName"
+        android:layout_alignRight="@+id/etLastName"
+        android:layout_below="@+id/divBelowLastName"
+        android:layout_marginTop="40dp"
+        android:background="@color/btn_color_airbnb"
+        android:paddingBottom="@dimen/padding_textbox"
+        android:paddingLeft="@dimen/padding_textbox"
+        android:paddingTop="@dimen/padding_textbox"
+        android:text="@string/signup"
+        android:textColor="@color/white" />
+
+</RelativeLayout><!-- From: file:/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/src/main/res/layout/fragment_signup.xml -->

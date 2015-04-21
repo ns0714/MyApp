@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.codepath.shareyourtable.activities.ViewEventActivity">
+    <item android:id="@+id/action_settings" android:title="@string/title_activity_chat"
+        android:orderInCategory="1" android:showAsAction="always" />
+</menu>
+<!-- From: file:/Users/nsamant/AndroidStudioProjects/ShareYourTable/shareYourTable/src/main/res/menu/menu_view_event.xml -->

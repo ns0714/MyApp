@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/newsFeed"
+    android:background="@color/white"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginTop="@dimen/margin"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/select_date"
+        android:gravity="right"
+        android:id="@+id/tvDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/ivUserProfilePic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:scaleType="centerCrop"
+        android:background="@drawable/shape_view_border"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:layout_below="@+id/tvDate"
+        android:layout_toRightOf="@+id/ivUserProfilePic"
+        android:layout_toEndOf="@+id/ivUserProfilePic"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="18sp"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ivEventIcon"
+        android:layout_alignLeft="@+id/ivUserProfilePic"
+        android:layout_below="@+id/ivUserProfilePic"
+        android:src="@drawable/location"
+        />
+     <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivUserProfilePic"
+        android:layout_toRightOf="@+id/ivEventIcon"
+        android:layout_alignTop="@+id/ivEventIcon"
+        android:text="@string/events"
+        android:layout_marginLeft="@dimen/margin"
+        />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLocation"
+        android:layout_below="@+id/tvLocation"
+        android:text="@string/time"
+        android:layout_marginTop="@dimen/margin"
+        />
+
+
+    <TextView
+        android:id="@+id/tvTableFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLocation"
+        android:layout_below="@+id/tvTime"
+        android:text="@string/table_for"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ivTableForIcon"
+        android:src="@drawable/ic_tablefor"
+        android:layout_below="@+id/tvTime"
+        android:layout_alignTop="@+id/tvTableFor"
+        android:layout_alignLeft="@+id/ivEventIcon"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ivClockIcon"
+        android:src="@drawable/clock"
+        android:layout_below="@+id/tvTableFor"
+        android:layout_alignTop="@+id/tvTime"
+        android:layout_alignLeft="@+id/ivEventIcon"
+        />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ibLookingFor"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tvUsername"
+        android:layout_marginRight="@dimen/margin_20"/>
+
+</RelativeLayout>
